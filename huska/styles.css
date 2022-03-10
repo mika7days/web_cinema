@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.h-cards{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 0 5.83% 0 5.83%;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 17.361%;
+}
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+h2{    
+    margin-bottom: 7.517%;
+    padding-left:2.986%;
+    width: 62.847%;
+    height: 6.45vw;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.819vw;
+    line-height: 101.38%;
+    color: #000000;
+    }
+.h-card1{
+    margin-right: 2.943%;
+    width:31.37%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 2.0833vw;
+    margin-bottom: 2.8472%;
+  }
+  #h-card1-margin{
+      margin-right: 0%;
+  }
+  .h-card1-1{
+      width: 100%;
+  }
+.h-card1-1 img{
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+.h-card1-2{
+    padding: 0.7638vw 0.9722vw 1.5972vw 1.3194vw;
+}
+.h-card1-2 h3{
+    height: 2.708%;
+    padding-left: 1px;
+    margin-bottom: 2.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.08vw;
+    line-height: 130%;
+}
+#h-card1-2-margin{
+    margin-bottom: 0;
+}
+.h-card1-2 p{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1.736vw;
+line-height: 130%;
+}
+@media screen and (min-width:992px) and (max-width:1279px){
+    .h-cards{
+        width: 100%;
+        height: auto;
+        margin-top: 17.221%;
+    }
+    h2{
+        margin-bottom: 6.595%;
+        padding-left:2.56954%;
+    }
+    .h-card1{
+        margin-right: 2.569%;
+        width:31.621%;
+    }
+    #h-card1-margin{
+        margin-right: 0%;
+    }
+}
+@media screen and (min-width:320px) and (max-width:991px){
+    .h-cards{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 9.06%;
+        margin-top: 22.6%;
+    }
+    h2{
+        margin-bottom: 9.509%;
+        width: 90.93%;
+        height: 11.5573vw;
+        font-size: 6.933vw;
+    }
+    .all-cards{
+    flex-direction: column;
+    padding-left: 14.20vw;
+    width:100%;
+    padding-right: 23.06vw;
+    }
+    .h-card1{
+    width:100%;
+    border-radius: 3.727vw;
+    margin-bottom: 6.4426vw;
+    margin-right: 0%;
+    }
+    .h-card1-2{
+        padding: 1.368vw 1.7386vw 2.858vw 2.4853vw;
+    }
+    .h-card1-2 h3{
+    height: 4.8453vw;
+    padding-left: 1px;
+    margin-bottom: 3.976vw;
+    font-size: 3.733vw;
+    }
+    #h-card1-2-margin{
+        height: 8.800vw;
+        margin-bottom: 2px;
+    }
+    .h-card1-2 p{
+        font-size: 3.2vw;
+    }
+}
