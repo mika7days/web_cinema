@@ -235,9 +235,9 @@ height: 10.25px;
 .k-headerimage{
     width: 141.66px;
 height: 165.89px;
-position: relative;
+
     /* left: 136%; */
-  left: 70vw;
+  
 
 }
 .k-headerimagebottom{
@@ -256,6 +256,61 @@ position: relative;
 .k-header-text-top img{
     width: max-content;
     height: max-content;
+}
+.k-headerimage{
+    margin-left: 0;
+}
+.k-head{
+    width: 100%;
+    position: relative;
+}
+.k-headertxt{
+    font-size: 3vw;
+}
+.k-head-header{
+    font-size: 10vw;
+    height: max-content;
+    margin-bottom: 20px;
+}
+.k-header-text-bottom{
+    font-size: 3.78vw;
+}
+.k-headerimage{
+    position: absolute;
+    right: 10%;
+}
+.k-headerblock {
+    margin-left: 0;
+    margin-top: 42vh;
+    width: 70vw;
+}
+.k-headerblocktop{
+    margin-left: 9.03px;
+    width: 90%;
+    height: max-content;
+    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
+}
+
+.k-headerblockbottom{
+    font-size: 4vw;
+    /* width: 280.5px; */
+    width: max-content;
+    height: 45.64px;
+     margin: 0;
+    
+}
+.k-header-wrap{
+    width: 100%;
+}
+.k-headerblock{
+    margin-left: 0;
+    margin-top: 42vh;
+    width: 70vw;
+    /* height: 150px; */
+    /* height: 30vw; */
+    height: max-content;
+   
 }
 
 }
