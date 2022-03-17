@@ -1,0 +1,354 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    .s-blue {
+        width: 100%;
+        padding: 12.847vw 28.472vw 12.847vw 8.472vw;
+        background: #9DC9C8;
+    }
+    
+    .s-blue h2 {
+        width: 63.056vw;
+        height: 4.583vw;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.819vw;
+        line-height: 101.38%;
+    }
+    
+    .s-first {
+        width: 11.806vw;
+        height: 2.222vw;
+        margin-top: 3.750vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.736vw;
+        line-height: 101.38%;
+    }
+    
+    .s-second {
+        width: 33.403vw;
+        height: 12.569vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5.556vw;
+        line-height: 101.38%;
+    }
+    
+    .s-asagi {
+        display: flex;
+    }
+    
+    .s-left {
+        margin-right: 4.861vw;
+    }
+    
+    .s-left h3 {
+        width: 20.417vw;
+        height: 2.222vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.736vw;
+        line-height: 101.38%;
+    }
+    
+    .s-right h3 {
+        width: 22.361vw;
+        height: 2.222vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.736vw;
+        line-height: 101.38%;
+    }
+    
+    .s-left p {
+        width: 20.417vw;
+        height: 4.861vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.250vw;
+        line-height: 101.38%;
+    }
+    
+    .s-right p {
+        width: 20.417vw;
+        height: 4.861vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.250vw;
+        line-height: 101.38%;
+    }
+    
+    #s-footer {
+        padding: 3.472vw 10.138vw 1.5972vw 8.472vw;
+        background-color: black;
+        color: white;
+    }
+    
+    #s-footer .s-footer {
+        display: flex;
+    }
+    
+    #s-footer .s-left img {
+        width: 7.9861vw;
+        height: 4.72vw;
+    }
+    
+    #s-footer .s-left .s-sosial {
+        display: flex;
+        margin-top: 2.083vw;
+    }
+    
+    #s-footer .s-left .s-sosial .s-insta {
+        width: 2.2916vw;
+        height: 2.2916vw;
+        margin-right: 1.25vw;
+    }
+    
+    #s-footer .s-left .s-sosial .s-fb {
+        width: 2.22vw;
+        height: 2.22vw;
+        margin-right: 1.4583vw;
+    }
+    
+    #s-footer .s-left .s-sosial .s-wk {
+        width: 2.4305vw;
+        height: 2.4305vw;
+        margin-right: 1.72vw;
+    }
+    
+    #s-footer .s-left .s-sosial .s-wp {
+        width: 2.361vw;
+        height: 2.361vw;
+        margin-right: 0;
+    }
+    
+    #s-footer .s-footer-note {
+        height: 1.609027vw;
+        font-size: 1.25vw;
+        margin-top: 5.872vw;
+    }
+    
+    #s-footer .s-right {
+        margin-left: 45.5vw;
+        display: flex;
+    }
+    
+    #s-footer .s-right .s-contact-logos .s-phone {
+        width: 1.875vw;
+        height: 1.875vw;
+        margin-bottom: 1.39vw;
+        margin-right: 1.527vw;
+        display: block;
+    }
+    
+    #s-footer .s-right .s-contact-logos .s-mail {
+        width: 1.875vw;
+        height: 1.25vw;
+        margin-right: 1.527vw;
+        display: block;
+    }
+    
+    #s-footer .s-right .s-contact .s-phone-p {
+        margin-bottom: 0.2083vw;
+    }
+    
+    #s-footer .s-right .s-contact p {
+        height: 2.77vw;
+        font-size: 1.7361vw;
+    }
+    
+    @media only screen and (min-width:991px) and (max-width:1279px) {
+        .container {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    @media only screen and (min-width:320px) and ( max-width:991px) {
+        .container {
+            width: 100%;
+            height: auto;
+        }
+        #s-footer .s-footer {
+            flex-direction: column;
+        }
+        #s-footer .s-footer .s-right {
+            margin-left: 0;
+            margin-top: 3.472vw;
+            margin-bottom: 3.472vw;
+        }
+        #s-footer .s-right .s-contact-logos .s-phone {
+            margin-bottom: 1.5vw;
+        }
+    }
+    
+    @media only screen and (min-width:991px) and (max-width:1279px) {
+        .s-blue {
+            width: 100%;
+            padding: 12.430vw 28.472vw 12.848vw 8.472vw;
+            background: #9DC9C8;
+        }
+        .s-blue h2 {
+            width: 63.055vw;
+            height: 4.584vw;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 3.837vw;
+            line-height: 101.38%;
+        }
+        .s-first {
+            width: 11.806vw;
+            height: 2.222vw;
+            margin-top: 3.749vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.679vw;
+            line-height: 101.38%;
+        }
+        .s-second {
+            width: 33.403vw;
+            height: 12.570vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 5.516vw;
+            line-height: 101.38%;
+        }
+        .s-asagi {
+            display: flex;
+        }
+        .s-left {
+            margin-right: 4.861vw;
+        }
+        .s-left h3 {
+            width: 20.417vw;
+            height: 2.222vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.679vw;
+            line-height: 101.38%;
+        }
+        .s-right h3 {
+            width: 10.371vw;
+            height: 2.222vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.679vw;
+            line-height: 101.38%;
+        }
+        .s-left p {
+            width: 20.417vw;
+            height: 4.861vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.199vw;
+            line-height: 101.38%;
+        }
+        .s-right p {
+            width: 20.417vw;
+            height: 4.861vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.199vw;
+            line-height: 101.38%;
+        }
+    }
+    
+    @media only screen and (min-width:320px) and (max-width:991px) {
+        .s-blue {
+            width: 100%;
+            padding: 9.240vw 58.122vw 35.538vw 8.495vw;
+            background: #9DC9C8;
+        }
+        .s-blue h2 {
+            width: 33.383vw;
+            height: 9.389vw;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 3.875vw;
+            line-height: 101.38%;
+        }
+        .s-first {
+            width: 11.806vw;
+            height: 2.222vw;
+            margin-top: 3.328vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.788vw;
+            line-height: 101.38%;
+        }
+        .s-second {
+            width: 33.402vw;
+            height: 12.569vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 5.514vw;
+            line-height: 101.38%;
+        }
+        .s-asagi {
+            display: flex;
+        }
+        .s-left {
+            margin-right: 4.620vw;
+        }
+        .s-left h3 {
+            width: 20.417vw;
+            height: 2.222vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.788vw;
+            line-height: 101.38%;
+        }
+        .s-right h3 {
+            width: 22.504vw;
+            height: 2.086vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.788vw;
+            line-height: 101.38%;
+        }
+        .s-left p {
+            width: 20.566vw;
+            height: 7.004vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.490vw;
+            line-height: 101.38%;
+        }
+        .s-right p {
+            width: 20.864vw;
+            height: 5.663vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.490vw;
+            line-height: 101.38%;
+        }
+    }
