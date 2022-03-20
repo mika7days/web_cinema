@@ -620,6 +620,7 @@ line-height: 130%;
     }
     
     #s-footer .s-right {
+        margin-top: 0.75vw;
         margin-left: 40.5vw;
         display: flex;
     }
@@ -1344,6 +1345,7 @@ height: 165.89px;
             margin-top: 3.472vw;
             margin-bottom: 3.472vw;
         }
+
         #s-footer .s-right .s-contact-logos .s-phone {
             margin-bottom: 1.5vw;
         }
