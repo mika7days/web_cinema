@@ -132,7 +132,7 @@ main {
 }
 
   #m-first-section {
-    margin-left: 8.4028vw;
+    margin-left: 8.403vw;
   }
   #m-first-section .m-header {
     width: 25.3472vw;
@@ -157,20 +157,21 @@ main {
     position: relative;
   }
   #m-first-section .m-main .m-article p {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
-    font-size: 1.7vw;
+    font-size: 1.667vw;
+    font-weight: 400;
     line-height: 150%;
   }
   #m-first-section .m-main .m-aside {
-    margin-left: 11.39vw;
-    margin-top: 1.7vw;
+    margin-left: 13.189vw;
+    margin-top: 1.68vw;
     position: relative;
   }
   #m-first-section .m-aside .m-image img {
-    width: 21.875vw;
-    height: 21.806vw;
+    width: 21.806vw;
+    height: 21.875vw;
   }
   #m-first-section .m-aside .m-image .m-ellipse1 {
     position: absolute;
@@ -241,8 +242,8 @@ main {
 /* The second part */
 
 .m-section3 h2 {
-    margin-top: 11.250vw;
-    margin-left: 8.403vw;
+    margin-top: 12.250vw;
+    margin-left: 5.403vw;
     width: 46.319vw;
     height: 6.458vw;
     font-family: 'Roboto Slab';
@@ -254,7 +255,7 @@ main {
 
 .m-box3 {
     display: flex;
-    margin-top: 6.181vw;
+    margin-top: -1.381vw;
     margin-left: 8.472vw;
 }
 
@@ -283,13 +284,13 @@ main {
 .m-second h3 {
     width: 14.861vw;
     height: 2.708vw;
-    margin-left: 8.542vw;
+    margin-left: 8.442vw;
 }
 
 .m-third h3 {
     width: 14.861vw;
     height: 2.708vw;
-    margin-left: 6.806vw;
+    margin-left: 7.806vw;
 }
 
 .m-first p {
@@ -306,12 +307,12 @@ main {
 .m-third p {
     width: 17.014vw;
     height: 2.708vw;
-    margin-left: 6.83vw;
+    margin-left: 7.83vw;
 }
 
 .m-section4 h2 {
     margin-top: 12.431vw;
-    margin-left: 8.403vw;
+    margin-left: 5.403vw;
     width: 46.319vw;
     height: 6.458vw;
     font-family: 'Roboto Slab';
@@ -322,9 +323,9 @@ main {
 }
 
 .m-section4 ul {
-    margin-top: 1.458vw;
+    margin-top: -5.958vw;
     margin-left: 9.583vw;
-    width: 45.972vw;
+    width: 45.872vw;
     height: 25.972vw;
     font-family: 'Roboto';
     font-style: normal;
@@ -407,9 +408,9 @@ line-height: 130%;
 
 #fourthSection {
     background-color: #efefef;
-    padding: 6.319vw 22.986vw 7.708vw 8.472vw;
+    padding: 6.3vw 22.986vw 7.708vw 8.4vw;
   }
-  .f-head > h1 {
+  .f-head h1 {
     font-family: "Roboto Slab";
     font-weight: 700;
     font-size: 3.819vw;
@@ -433,10 +434,11 @@ line-height: 130%;
     font-size: 1.389vw;
     font-weight: 400;
     font-family: "Roboto";
+    line-height: 150%;
   }
   .fourth-image1 {
     width: 13.194vw;
-    margin-right: 2.083vw;
+    margin-right: 2vw;
     padding-bottom: 2.014vw;
   }
   .fourth-image2 {
@@ -444,6 +446,7 @@ line-height: 130%;
     height: 2.153vw;
   }
   .fourth-items {
+    margin: 0.694vw 2.083vw 2.014vw -1.3vw;
     display: flex;
   }
   .f-head-two {
@@ -457,7 +460,7 @@ line-height: 130%;
   .f-box-two {
     width: 24.514vw;
     display: flex;
-    margin-left: 2.083vw;
+    margin-left: 0.083vw;
     padding-top: 2.778vw;
     flex-direction: column;
   }
@@ -471,6 +474,9 @@ line-height: 130%;
     }
     
     .s-blue h2 {
+        
+        padding-left: 0;
+        margin-top: -0.4vw;
         width: 63.056vw;
         height: 4.583vw;
         font-family: 'Roboto Slab';
@@ -483,7 +489,7 @@ line-height: 130%;
     .s-first {
         width: 11.806vw;
         height: 2.222vw;
-        margin-top: 3.750vw;
+        margin-top: -1vw;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -503,6 +509,7 @@ line-height: 130%;
     
     .s-asagi {
         display: flex;
+        margin-top: -1vw;
     }
     
     .s-left {
@@ -510,6 +517,8 @@ line-height: 130%;
     }
     
     .s-left h3 {
+        margin-top: -1vw;
+        margin-bottom: 0.68vw;
         width: 20.417vw;
         height: 2.222vw;
         font-family: 'Roboto';
@@ -520,6 +529,8 @@ line-height: 130%;
     }
     
     .s-right h3 {
+        margin-top: -1vw;
+        margin-bottom: 0.68vw;
         width: 22.361vw;
         height: 2.222vw;
         font-family: 'Roboto';
@@ -550,6 +561,7 @@ line-height: 130%;
     }
     
     #s-footer {
+        height: 27.083vw;
         padding: 3.472vw 10.138vw 1.5972vw 8.472vw;
         background-color: black;
         color: white;
@@ -557,6 +569,7 @@ line-height: 130%;
     
     #s-footer .s-footer {
         display: flex;
+        margin-bottom: 10.139vw;
     }
     
     #s-footer .s-left img {
@@ -566,41 +579,48 @@ line-height: 130%;
     
     #s-footer .s-left .s-sosial {
         display: flex;
-        margin-top: 2.083vw;
     }
     
     #s-footer .s-left .s-sosial .s-insta {
         width: 2.2916vw;
         height: 2.2916vw;
         margin-right: 1.25vw;
+        margin-top: 1.68vw;
     }
     
     #s-footer .s-left .s-sosial .s-fb {
         width: 2.22vw;
         height: 2.22vw;
         margin-right: 1.4583vw;
+        margin-top: 1.68vw;
     }
     
     #s-footer .s-left .s-sosial .s-wk {
         width: 2.4305vw;
         height: 2.4305vw;
         margin-right: 1.72vw;
+        margin-top: 1.68vw;
     }
     
     #s-footer .s-left .s-sosial .s-wp {
         width: 2.361vw;
         height: 2.361vw;
         margin-right: 0;
+        margin-top: 1.68vw;
     }
     
     #s-footer .s-footer-note {
-        height: 1.609027vw;
-        font-size: 1.25vw;
-        margin-top: 5.872vw;
+        width: 15.972vw;
+        height: 2.778vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.250vw;
+        line-height: 101.38%;
     }
     
     #s-footer .s-right {
-        margin-left: 45.5vw;
+        margin-left: 40.5vw;
         display: flex;
     }
     
