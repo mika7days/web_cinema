@@ -678,7 +678,6 @@ line-height: 130%;
 .k-logo{
     width: 9.01vw;
     height:7.96vh;
-
 }
 .k-globeimg{
     width: 1.528vw;
@@ -845,9 +844,17 @@ height: max-content;
 /*  SABINA  */
   
   .container {
-            width: 100%;
-            height: auto;
+          width: 100%;
+          height: auto;
         }
+
+        #s-footer {
+          height: 27.083vw;
+          padding: 3.472vw 10.138vw 1.5972vw 8.472vw;
+          background-color: black;
+          color: white;
+      }
+
         .s-blue {
             width: 100%;
             padding: 12.430vw 28.472vw 12.848vw 8.472vw;
@@ -897,7 +904,7 @@ height: max-content;
             line-height: 101.38%;
         }
         .s-right h3 {
-            width: 10.371vw;
+            width: 16.371vw;
             height: 2.222vw;
             font-family: 'Roboto';
             font-style: normal;
@@ -1359,6 +1366,10 @@ height: max-content;
             margin-left: 0;
             margin-top: 3.472vw;
             margin-bottom: 3.472vw;
+        }
+
+        #s-footer {
+          height: 45.083vw;
         }
 
         #s-footer .s-right .s-contact-logos .s-phone {
